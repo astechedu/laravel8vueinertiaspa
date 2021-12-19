@@ -1,8 +1,8 @@
-Larael8 Inertial Js Single Page Application
+# Larael8 Inertial Js Single Page Application
 
 Laravel8 Vue Js Single Page Application For Beginners
 
-Step 1: Install Laravel 8
+# Step 1: Install Laravel 8
 
 Now, we need to install laravel 8 app using composer command. Run below command to install
 
@@ -12,7 +12,7 @@ composer global require laravel/installer
 
 laravel new inertia —jet
 
-Step 2: Create Model
+# Step 2: Create Model
 
 Here, we need to create database migration for articles table and also we will create model for articles table.
 php artisan make:model Article -m
@@ -70,7 +70,7 @@ use HasFactory;
 
 }
 
-Step 3: Create Route
+# Step 3: Create Route
 
 In third step, we will create routes for crud app. so create route here.
 
@@ -90,7 +90,7 @@ Route::post(‘/article’, [ArticleController::class, ‘store’]);
 Route::patch(‘/article/edit/{id}’, [ArticleController::class, ‘update’]);
 Route::delete(‘/article/delete/{id}’, [ArticleController::class, ‘delete’]);
 
-Step 4: Create Controller
+# Step 4: Create Controller
 
 In this step, we will create article controller file and add following code on it.
 
@@ -147,7 +147,7 @@ return Inertia::render(
 
 }
 
-Step 5: Share Inertia Var Globally
+# Step 5: Share Inertia Var Globally
 
 Here, i will create ‘message’ and ‘errors’ variable for success message and validation error so. we need to share this variables on appservices provider so that we can call it from our view component.
 
@@ -193,7 +193,7 @@ class AppServiceProvider extends ServiceProvider
 
 }
 
-Step 6: Create View Template
+# Step 6: Create View Template
 
 Here, we need to create article page. View file where we will write code to list of article and create and update model code.
 
@@ -284,8 +284,6 @@ resources/js/Pages/Article.vue
        
     </app-layout>
 </template>
-
-<blockquote>
     
 <script>
     import AppLayout from '@/Layouts/AppLayout'
@@ -348,8 +346,7 @@ resources/js/Pages/Article.vue
         },
     }
 </script> 
- 
-</blockquote>    
+
 
 Now we need to compile our js code. run below command. so let’s run it as bellow:
 

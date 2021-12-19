@@ -369,13 +369,14 @@ resources/js/Pages/Article.vue
     }
 </script>
  
+ 
 Now we need to compile our js code. run below command. so let's run it as bellow:
 
 npm install 
 //then
 npm run watch
 
-Now just visit below link to see our crud operation using inertia js with Laravel
+Now just visit below link to see crud operation using inertia js with Laravel
 
  
 LINK

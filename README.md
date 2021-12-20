@@ -2,7 +2,7 @@
 
 Laravel8 Vue Js Single Page Application For Beginners
 
-# Step 1: Install Laravel 8
+** Step 1: Install Laravel 8 **
 
 Now, we need to install laravel 8 app using composer command. Run below command to install
 

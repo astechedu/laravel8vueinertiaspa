@@ -289,7 +289,6 @@ resources/js/Pages/Article.vue
 </template>
   
 '''
-
 <script>   
     import AppLayout from '@/Layouts/AppLayout'
     import Welcome from '@/Jetstream/Welcome'

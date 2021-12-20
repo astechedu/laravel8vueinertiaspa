@@ -12,7 +12,7 @@ composer global require laravel/installer
 
 laravel new inertia —jet
 
-# Step 2: Create Model
+** Step 2: Create Model **
 
 Here, we need to create database migration for articles table and also we will create model for articles table.
 php artisan make:model Article -m

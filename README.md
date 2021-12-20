@@ -288,8 +288,9 @@ resources/js/Pages/Article.vue
     </app-layout>
 </template>
   
-<script>
-'''     
+'''
+
+<script>   
     import AppLayout from '@/Layouts/AppLayout'
     import Welcome from '@/Jetstream/Welcome'
 
@@ -348,10 +349,9 @@ resources/js/Pages/Article.vue
                 this.closeModal();
             },
         },
-    }
- '''   
+    }  
 </script> 
-
+'''
 
 Now we need to compile our js code. run below command. so let’s run it as bellow:
 

@@ -1,7 +1,7 @@
 ![](https://avatars.githubusercontent.com/u/75734516?s=48&v=4) 
-# Larael8 vue js & Inertia js Single Page Application
+# Larael8 Vue js, Inertia js & Tailwind Single Page Application
 
-Laravel8 vue js & Inertia js Single Page Application For Beginners
+Laravel8 vue js, Inertia js, tailwind Single Page Application For Beginners
 
 **Step 1: Install Laravel 8**
 

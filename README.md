@@ -7,9 +7,9 @@ Laravel8 Vue Js Single Page Application For Beginners
 
 Now, we need to install laravel 8 app using composer command. Run below command to install
 
-composer global require laravel/installer
+``` composer global require laravel/installer ```
 
-// and then run
+and then run
 
 ``` laravel new inertia —jet ```
 
@@ -80,9 +80,9 @@ use HasFactory;
 
 In third step, we will create routes for crud app. so create route here.
 
+```
 routes/web.php
 
-```
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ArticleController;
 
@@ -208,8 +208,9 @@ class AppServiceProvider extends ServiceProvider
 
 Here, we need to create article page. View file where we will write code to list of article and create and update model code.
 
-resources/js/Pages/Article.vue
 ```
+resources/js/Pages/Article.vue
+
 <template>
     <app-layout>
         <template #header>
@@ -359,12 +360,11 @@ resources/js/Pages/Article.vue
 </script>
 ```
 
-
 Now we need to compile our js code. run below command. so let’s run it as bellow:
 
-npm install
-//then
-npm run watch
+``` npm install ```
+then
+``` npm run watch ```
 
 Now just visit below link to see crud operation using inertia js with Laravel
 
@@ -374,16 +374,3 @@ or
 localhost:8000/article
 
 :+1:
-
- 
- 
-
-
-
-
-
-
-
-
-
-

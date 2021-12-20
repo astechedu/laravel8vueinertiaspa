@@ -208,7 +208,7 @@ class AppServiceProvider extends ServiceProvider
 Here, we need to create article page. View file where we will write code to list of article and create and update model code.
 
 resources/js/Pages/Article.vue
-
+```
 <template>
     <app-layout>
         <template #header>
@@ -294,7 +294,8 @@ resources/js/Pages/Article.vue
        
     </app-layout>
 </template>
-  
+```
+
 ```
 <script>   
     import AppLayout from '@/Layouts/AppLayout'

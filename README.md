@@ -77,7 +77,7 @@ In third step, we will create routes for crud app. so create route here.
 
 routes/web.php
 
-'''
+```
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ArticleController;
 
@@ -91,7 +91,7 @@ Route::get(‘/article’, [ArticleController::class, ‘index’]);
 Route::post(‘/article’, [ArticleController::class, ‘store’]);
 Route::patch(‘/article/edit/{id}’, [ArticleController::class, ‘update’]);
 Route::delete(‘/article/delete/{id}’, [ArticleController::class, ‘delete’]);
-'''
+```
 
 **Step 4: Create Controller**
 

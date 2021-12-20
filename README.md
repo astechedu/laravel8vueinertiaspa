@@ -1,5 +1,7 @@
 # Larael8 Inertial Js Single Page Application
 
+![](https://avatars.githubusercontent.com/u/75734516?s=48&v=4)
+
 Laravel8 Vue Js Single Page Application For Beginners
 
 **Step 1: Install Laravel 8**
@@ -361,7 +363,6 @@ http://127.0.0.1:8000/article
 or
 localhost:8000/article
 
-![](https://avatars.githubusercontent.com/u/75734516?s=48&v=4)
 ---------------- X ----------------------
 
  

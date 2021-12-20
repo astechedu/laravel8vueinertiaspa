@@ -114,15 +114,13 @@ use Illuminate\Support\Facades\Validator;
 
 class ArticleController extends Controller
 {
-public function index(Article $article)
-{
-return Inertia::render(
-‘Article’,
-[
-‘data’ => $article->latest()->get()
-]
-);
-}
+    public function index(Article $article)
+    {
+        return Inertia::render(‘Article’, [
+          ‘data’ => $article->latest()->get()
+        ]
+        );
+    }
 
     public function store(Request $request)
     {

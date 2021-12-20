@@ -362,7 +362,7 @@ http://127.0.0.1:8000/article
 or
 localhost:8000/article
 
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+:+1:
 
  
  

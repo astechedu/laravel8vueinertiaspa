@@ -100,7 +100,8 @@ Route::delete(‘/article/delete/{id}’, [ArticleController::class, ‘delete�
 **Step 4: Create Controller**
 
 In this step, we will create article controller file and add following code on it.
-``
+
+```
 app/Http/Controllers/ArticleController.php
 
 namespace App\Http\Controllers;
@@ -121,7 +122,6 @@ return Inertia::render(
 ]
 );
 }
-```
 
     public function store(Request $request)
     {
@@ -154,7 +154,7 @@ return Inertia::render(
     }
 
 }
-
+```
 
 **Step 5: Share Inertia Var Globally**
 

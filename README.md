@@ -349,8 +349,8 @@ resources/js/Pages/Article.vue
             },
         },
     }  
-</script> 
-'''
+</script>''' 
+
 
 Now we need to compile our js code. run below command. so let’s run it as bellow:
 

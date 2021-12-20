@@ -16,8 +16,9 @@ laravel new inertia —jet
 **Step 2: Create Model**
 
 Here, we need to create database migration for articles table and also we will create model for articles table.
-php artisan make:model Article -m
 
+php artisan make:model Article -m
+```
 database\migrations
 
 use Illuminate\Database\Migrations\Migration;
@@ -51,9 +52,11 @@ class CreateArticlesTable extends Migration
     }
 
 }
+```
 
 Now run php artisan migrate command to create article table.
 
+```
 App/Models/Article.php
 
 namespace App\Models;
@@ -70,6 +73,7 @@ use HasFactory;
     ];
 
 }
+```
 
 **Step 3: Create Route**
 

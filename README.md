@@ -122,6 +122,7 @@ return Inertia::render(
 );
 }
 ```
+
     public function store(Request $request)
     {
         Validator::make($request->all(), [
@@ -153,6 +154,7 @@ return Inertia::render(
     }
 
 }
+
 
 **Step 5: Share Inertia Var Globally**
 
@@ -197,7 +199,6 @@ class AppServiceProvider extends ServiceProvider
             ];
         });
     }
-
 }
 
 **Step 6: Create View Template**

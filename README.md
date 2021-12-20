@@ -160,6 +160,7 @@ return Inertia::render(
 
 Here, i will create ‘message’ and ‘errors’ variable for success message and validation error so. we need to share this variables on appservices provider so that we can call it from our view component.
 
+```
 app/Providers/AppServiceProvider.php
 
 namespace App\Providers;
@@ -200,6 +201,7 @@ class AppServiceProvider extends ServiceProvider
         });
     }
 }
+```
 
 **Step 6: Create View Template**
 

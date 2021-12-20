@@ -11,13 +11,14 @@ composer global require laravel/installer
 
 // and then run
 
-laravel new inertia —jet
+``` laravel new inertia —jet ```
 
 **Step 2: Create Model**
 
 Here, we need to create database migration for articles table and also we will create model for articles table.
 
-php artisan make:model Article -m
+``` php artisan make:model Article -m ```
+
 ```
 database\migrations
 
@@ -294,6 +295,7 @@ resources/js/Pages/Article.vue
        
     </app-layout>
 </template>
+
 <script>   
     import AppLayout from '@/Layouts/AppLayout'
     import Welcome from '@/Jetstream/Welcome'

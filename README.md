@@ -1,4 +1,5 @@
-![](https://avatars.githubusercontent.com/u/75734516?s=48&v=4) # Larael8 Inertial Js Single Page Application
+![](https://avatars.githubusercontent.com/u/75734516?s=48&v=4) 
+# Larael8 Inertial Js Single Page Application
 
 Laravel8 Vue Js Single Page Application For Beginners
 

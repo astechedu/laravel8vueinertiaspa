@@ -1,4 +1,4 @@
-<img src="https://i.ytimg.com/vi/GawIv1trZ5I/maxresdefault.jpg" width="300" height="100">
+<img src="https://i.ytimg.com/vi/GawIv1trZ5I/maxresdefault.jpg" width="500" height="200">
 
 # Larael8 Vue js, Inertia js & Tailwind Single Page Application
 
